@@ -115,7 +115,7 @@ if you haven't on your system.
 | POST :fire:| /api/tableName/bulk             | Create multiple rows - send object array in request body|
 | GET  :fire:| /api/tableName/bulk             | Lists multiple rows - /api/tableName/bulk?_ids=1,2,3   |
 | DELETE :fire:| /api/tableName/bulk           | Deletes multiple rows - /api/tableName/bulk?_ids=1,2,3 |
-| DELETE :field:| /api/tableName/field         | Deletes multiple rows - /api/tableName/field?_where=(package_id,eq,72) |  
+| DELETE :fire:| /api/tableName/field         | Deletes multiple rows - /api/tableName/field?_where=(package_id,eq,72) |  
 | GET       | /api/tableName/:id               | Retrieves a row by primary key                         |
 | PATCH     | /api/tableName/:id               | Updates row element by primary key                     |
 | DELETE    | /api/tableName/:id               | Delete a row by primary key                            |
